@@ -1,0 +1,15 @@
+{
+  "name": "ElectronCamera",
+  "version": "1.0.0",
+  "description": "Desktop camera application built in electron.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
