@@ -4,12 +4,15 @@
   "description": "Desktop camera application built in electron.",
   "main": "src/main.js",
   "scripts": {
+    "build": "rimraf ElectronCamera-* && electron-packager . --platform=win32 --arch=x64",
     "start": "electron ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron-prebuilt": "^1.4.13"
+    "electron-packager": "^15.0.0",
+    "electron-prebuilt": "^1.4.13",
+    "rimraf": "^3.0.2"
   }
 }
